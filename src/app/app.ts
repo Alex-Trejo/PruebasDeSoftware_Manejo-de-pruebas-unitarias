@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Calculator } from './calculator';
 import { ProfileCard } from "./profile-card/profile-card";
+import { EvaluacionComponent} from "./evaluacion/evaluacion";
 
 @Component({
   selector: 'app-root',
-  imports: [ ProfileCard],
+  imports: [ ProfileCard,EvaluacionComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
